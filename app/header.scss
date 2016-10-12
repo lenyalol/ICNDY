@@ -1,0 +1,64 @@
+@import "bourbon";
+@import "sass/vars";
+@import "sass/base";
+
+header {
+	background: url('img/header_bg.jpg') no-repeat top center;
+	padding: 40px 0 70px;
+	min-height: 100vh;
+	.header-top_line {
+		.logo {
+			display: inline-block;
+			background-color: #fff;
+			padding: 35px 10px 35px 25px;
+			letter-spacing: 15px;
+			color: #828282;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 2.2rem;
+		}
+		.navigation {
+			float: right;
+			padding-top: 20px;
+			li {
+				margin-left: 60px;
+				display: inline-block;
+				a {
+					text-decoration: none;
+					color: #fff;
+					text-transform: uppercase;
+					font-size: 1.8rem;
+					letter-spacing: 3px;
+					transition: color 0.3s;
+					&:hover {
+						color: #f84545;
+					}
+				}
+			}
+		}
+	}
+	.header-main {
+		padding-top: 150px;
+		text-align: center;
+		h1 {
+			font-size: 4rem;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 35px;
+		}
+		p.header_descr {
+			color: #f84545;
+			text-transform: uppercase;
+			font-size: 2rem;
+			font-weight: 700;
+			letter-spacing: 3px;
+		}
+		.scroll_down {
+			color: #fff;
+			font-size: 15rem;
+			margin-top: 50px;
+			display: inline-block;
+			cursor: pointer;
+		}
+	}
+}

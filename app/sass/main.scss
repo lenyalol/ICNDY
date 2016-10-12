@@ -1,0 +1,92 @@
+@import "bourbon";
+@import "vars";
+@import "libs";
+
+.brands {
+	padding: 75px 0;
+	.row:first-child {
+		margin-bottom: 30px;
+	}
+	img {
+		width: 100%;
+	}
+	.brand {
+		position: relative;
+		.wrapper {
+			position: absolute;
+			bottom: 0;
+			left: 25px;
+			color: #fff;
+			h3 {
+				font-weight: 300;
+				letter-spacing: 10px;
+				text-transform: uppercase;
+			}
+			img {
+				width: auto;
+			}
+		}
+	}
+	.carhartt {
+		margin-bottom: 32px;
+	}
+}
+.instagram {
+	position: relative;
+	img {
+		width: 100%;
+	}
+	.section_descr {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 200px;
+		h2 {
+			color: #fff;
+			font-weight: 300;
+			font-size: 4rem;
+			letter-spacing: 25px;
+		}
+		p.header_descr {
+			color: #f84545;
+			font-size: 2rem;
+			font-weight: 700;
+			letter-spacing: 3px;
+			cursor: pointer;
+		}
+	}
+}
+footer {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 10px 0;
+	.copyright,
+	.links,
+	.social {
+		display: inline-block;
+	}
+	li {
+		display: inline-block;
+		a,
+		a:hover,
+		a:focus {
+			color: #1a1a1a;
+			text-decoration: none;
+		}
+	}
+	.links {
+		li {
+			margin-left: 40px;
+		}
+	}
+	.social {
+		float: right;
+		li {
+			margin-left: 10px;
+		}
+	}
+}
+
+@import "media";
